@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: original_data
+    description: 'Datos originales proporcionados por el equipo de dev.'
+    database: final
+    schema: staging
+    tables:
+      - name: datos
+        description: 'Detalles acerca de un censo.'
